@@ -1,0 +1,35 @@
+body {
+  font-family: "Space Mono";
+  font-size: 16px;
+  line-height: 1.5;
+
+  background-color: #000;
+  color: #fff;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 30vmin;
+}
+
+nav {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #999;
+}
+
+nav a.selected {
+  color: #fff;
+}
